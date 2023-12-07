@@ -48,3 +48,9 @@ return [
 ];
 
 ```
+
+## 搭建admin应用
+快速生成admin应用
+```shell
+php think lz-core
+```

@@ -66,7 +66,8 @@ abstract class BaseController
      */
     public function __construct(App $app, $_memberPK = null)
     {
-        if ($_memberPK == null) {
+        print_r($_memberPK);
+        if (empty($_memberPK)) {
             throw new SystemException('【开发者注意】请在'.get_parent_class($this).'重载__construct方法');
         }
         $this->app = $app;

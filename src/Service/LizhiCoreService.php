@@ -2,9 +2,9 @@
 
 namespace Lizhijun\LizhiTpCore\Service;
 
-use think\Service as BaseService;
-use Lizhijun\LizhiTpCore\Request;
 use Lizhijun\LizhiTpCore\ExceptionHandle;
+use Lizhijun\LizhiTpCore\Request;
+use think\Service as BaseService;
 
 class LizhiCoreService extends BaseService
 {

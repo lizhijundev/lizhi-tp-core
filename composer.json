@@ -15,7 +15,8 @@
     "extra": {
         "think": {
             "services":[
-                "Lizhijun\\LizhiTpCore\\Service\\LizhiCoreService"
+                "Lizhijun\\LizhiTpCore\\Service\\LizhiCoreService",
+                "Lizhijun\\LizhiTpCore\\Service\\ProjectService"
             ],
             "config":{
                 "apicode": "src/Config/apicode.php"
@@ -25,7 +26,8 @@
     "require": {
         "php": ">=8.0.0",
         "topthink/framework": "^8.0",
-        "topthink/think-orm": "^3.0"
+        "topthink/think-orm": "^3.0",
+        "topthink/think-multi-app": "1.0.17"
     },
     "license": "MIT"
 }
