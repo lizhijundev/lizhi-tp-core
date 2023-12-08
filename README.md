@@ -54,3 +54,13 @@ return [
 ```shell
 php think lz-core
 ```
+
+
+## 待完成
+- [ ] 管理后台权限api
+- [ ] 角色管理api
+- [ ] 管理员管理api
+- [ ] 权限分配api
+- [ ] 鉴权中间件
+- [ ] 创建app api基础框架
+- [ ] 创建admin基础框架
