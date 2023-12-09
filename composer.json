@@ -1,5 +1,5 @@
 {
-    "name": "lizhijun/lizhi-tp-core",
+    "name": "lizhijun/lztp-core",
     "type": "library",
     "authors": [
         {
@@ -9,17 +9,17 @@
     ],
     "autoload": {
         "psr-4": {
-            "Lizhijun\\LizhiTpCore\\": "src/"
+            "lztp_core\\": "src/"
         }
     },
     "extra": {
         "think": {
             "services":[
-                "Lizhijun\\LizhiTpCore\\Service\\LizhiCoreService",
-                "Lizhijun\\LizhiTpCore\\Service\\ProjectService"
+                "lztp_core\\service\\LizhiCoreService",
+                "lztp_core\\service\\ProjectService"
             ],
             "config":{
-                "apicode": "src/Config/apicode.php"
+                "apicode": "src/config/apicode.php"
             }
         }
     },

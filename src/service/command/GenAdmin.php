@@ -1,6 +1,6 @@
 <?php
 
-namespace Lizhijun\LizhiTpCore\Service\command;
+namespace lztp_core\service\command;
 
 use think\console\Command;
 use think\console\Input;

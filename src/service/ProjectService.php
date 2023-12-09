@@ -1,6 +1,6 @@
 <?php
 
-namespace Lizhijun\LizhiTpCore\Service;
+namespace lztp_core\service;
 
 use think\Service as BaseService;
 

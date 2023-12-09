@@ -1,7 +1,7 @@
 <?php
 declare (strict_types=1);
 
-namespace Lizhijun\LizhiTpCore\Exception;
+namespace lztp_core\exception;
 
 
 use think\Exception;

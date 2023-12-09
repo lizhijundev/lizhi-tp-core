@@ -1,6 +1,6 @@
 <?php
 
-namespace Lizhijun\LizhiTpCore\Exception;
+namespace lztp_core\exception;
 
 class ApiException extends BaseException
 {

@@ -1,10 +1,9 @@
 <?php
 
-namespace Lizhijun\LizhiTpCore;
+namespace lztp_core;
 
-use Lizhijun\LizhiTpCore\Exception\ApiCode;
-use Lizhijun\LizhiTpCore\Exception\ApiException;
-use Lizhijun\LizhiTpCore\Exception\BaseException;
+use lztp_core\exception\ApiCode;
+use lztp_core\exception\ApiException;
 use think\db\exception\DataNotFoundException;
 use think\db\exception\ModelNotFoundException;
 use think\db\exception\PDOException;
@@ -12,7 +11,6 @@ use think\exception\Handle;
 use think\exception\HttpException;
 use think\exception\HttpResponseException;
 use think\exception\ValidateException;
-use think\facade\Log;
 use think\facade\Request;
 use think\Response;
 use think\response\Json;

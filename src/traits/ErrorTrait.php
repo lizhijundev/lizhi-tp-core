@@ -1,6 +1,6 @@
 <?php
 
-namespace Lizhijun\LizhiTpCore\Traits;
+namespace lztp_core\traits;
 
 /**
  * 错误信息Trait类

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lizhijun\LizhiTpCore;
+namespace lztp_core;
 
 use think\facade\Env;
 

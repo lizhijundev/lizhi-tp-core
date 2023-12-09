@@ -10,7 +10,7 @@
 ## 快速上手
 ### 安装
 ```shell
-composer -vvv require lizhijun/lizhi-tp-core
+composer -vvv require lizhijun/lztp-core
 ```
 安装成功后，自动创建配置文件`config/apicode.php`
 ```php
@@ -52,7 +52,7 @@ return [
 ## 搭建admin应用
 快速生成admin应用
 ```shell
-php think lz-core
+php think lztp-core
 ```
 
 

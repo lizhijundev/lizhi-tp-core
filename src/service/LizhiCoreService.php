@@ -1,9 +1,9 @@
 <?php
 
-namespace Lizhijun\LizhiTpCore\Service;
+namespace lztp_core\service;
 
-use Lizhijun\LizhiTpCore\ExceptionHandle;
-use Lizhijun\LizhiTpCore\Request;
+use lztp_core\ExceptionHandle;
+use lztp_core\Request;
 use think\Service as BaseService;
 
 class LizhiCoreService extends BaseService

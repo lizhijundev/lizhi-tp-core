@@ -1,6 +1,6 @@
 <?php
 
-namespace Lizhijun\LizhiTpCore;
+namespace lztp_core;
 
 // 应用请求对象类
 class Request extends \think\Request

@@ -1,10 +1,10 @@
 <?php
 declare (strict_types=1);
 
-namespace Lizhijun\LizhiTpCore;
+namespace lztp_core;
 
-use Lizhijun\LizhiTpCore\Exception\ApiException;
-use Lizhijun\LizhiTpCore\Exception\SystemException;
+use lztp_core\exception\ApiException;
+use lztp_core\exception\SystemException;
 use think\App;
 use think\facade\Cache;
 use think\Validate;
