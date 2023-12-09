@@ -27,7 +27,9 @@
         "php": ">=8.0.0",
         "topthink/framework": "^8.0",
         "topthink/think-orm": "^3.0",
-        "topthink/think-multi-app": "1.0.17"
+        "topthink/think-multi-app": "1.0.17",
+        "topthink/think-migration": "3.1",
+        "casbin/think-authz": "1.6"
     },
     "license": "MIT"
 }
