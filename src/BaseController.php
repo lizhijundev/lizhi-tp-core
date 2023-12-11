@@ -12,6 +12,7 @@ use think\exception\ValidateException;
 
 /**
  * 控制器基础类
+ * todo: 设计成中间件
  */
 abstract class BaseController
 {
