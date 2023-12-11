@@ -6,6 +6,10 @@ namespace lztp_core;
 class Request extends \think\Request
 {
     // 全局过滤规则
-    protected $filter = ['my_trim', 'my_htmlspecialchars', 'filter_emoji'];
+    protected $filter = [
+        'my_trim',
+        'my_htmlspecialchars',
+        'filter_emoji'
+    ];
 
 }
