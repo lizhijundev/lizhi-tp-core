@@ -1,6 +1,9 @@
 {
     "name": "lizhijun/lztp-core",
     "type": "library",
+    "description": "基于ThinkPHP 8 框架二次开发api基础框架",
+    "keywords": ["thinkphp8", "api", "framework"],
+    "homepage": "https://github.com/lizhijundev/lizhi-tp-core",
     "authors": [
         {
             "name": "lizhijun",
